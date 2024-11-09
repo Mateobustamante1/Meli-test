@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## The Magneto DNA Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Magneto is recruiting mutants and has challenged us to detect if a given DNA sequence belongs to a mutant or a human. A DNA sequence is considered mutant if it contains more than one sequence of four identical nitrogenous bases (A, T, C, G) either horizontally, vertically, or diagonally.
 
-## Available Scripts
+### The app features a Mutant DNA Detector that:
 
-In the project directory, you can run:
+### Allows users to input a DNA matrix.
+Validates the matrix to ensure it only contains valid characters (A, T, C, G).
+Checks for mutant patterns using a custom JavaScript algorithm.
+Login and Data Mocking
+This project includes a test login feature, which authenticates users with mock data. No hashing or security layers were implemented, as the goal was to demonstrate data mocking practices.
 
-### `npm start`
+### Mocked login credentials:
+User 1: username: test1 / password: 12345
+User 2: username: test2 / password: 12345
+This login simulates a typical authentication process in a secure app, but without backend integration, allowing Magneto's recruitment team to focus on the app's functionality without server setup.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Styles and Animations
+The app has a simple, user-friendly UI with CSS-based styling and basic animations to enhance the user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Functional and Technical Highlights
+React Components: The project includes several components that demonstrate typical React functionality, such as managing state and handling events.
+JavaScript Logic: Custom JavaScript functions handle the DNA sequence validation and mutant detection, showcasing foundational programming skills.
+Unit Testing with Jest: Key components are tested with Jest to ensure reliability and functionality.
+### Development Approach
+The application was developed as a frontend-only solution based on discussions with Gabriel Ivan Nocce, who assigned this challenge. As agreed, no backend service was deployed or developed. The focus was on frontend development and creating a simulated environment to demonstrate my skills in UI design, data handling, and testing.
 
-### `npm test`
+If a backend API had been available, I would have showcased advanced mocking techniques, a common practice in my work within financial services, to simulate API responses more accurately.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future Improvements
+Backend Integration: Adding a real API to handle the DNA analysis would enable a more complete demonstration of mock and service handling skills.
+Enhanced Security: Implementing secure hashing and session management for the login process.
+Advanced Animations: Adding further animations and transitions to improve UX.
+Feedback
+I hope this solution meets your expectations, and I am open to discussing it further. Feel free to reach out for any questions, feedback, or suggestions.

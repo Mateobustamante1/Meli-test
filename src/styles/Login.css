@@ -1,4 +1,3 @@
-/* Fondo degradado fuera del login */
 body {
   background: linear-gradient(to bottom, #FFFF00, #000000); /* De amarillo a negro */
   margin: 0;
@@ -9,34 +8,34 @@ body {
   align-items: center;
 }
 
-/* Estilo del contenedor del login */
+
 .login-container {
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
   border: 1px solid #000000;
   border-radius: 5px;
-  background-color: #FFFFFF; /* Fondo blanco para el login */
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+  background-color: #FFFFFF; 
+  box-sizing: border-box; 
 }
 
-/* Título del login */
+
 .login-container h2 {
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Estilo de los campos de entrada */
+
 .login-container input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #000000;
   border-radius: 3px;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+  box-sizing: border-box; 
 }
 
-/* Estilo del botón de login */
+
 .login-container button {
   width: 100%;
   padding: 10px;
@@ -45,16 +44,16 @@ body {
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+  box-sizing: border-box; 
 }
 
-/* Estilo cuando el botón es presionado */
+
 .login-container button:hover {
   background-color: #FFFF00;
-  color: #000802; /* Cambiar el color de texto al negro cuando se pasa el ratón */
+  color: #000802;
 }
 
-/* Estilo para mostrar los errores */
+
 .error {
   color: red;
   margin-top: 10px;
